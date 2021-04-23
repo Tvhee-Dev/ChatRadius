@@ -1,0 +1,34 @@
+name: ${project.name}
+main: me.tvhee.chatradius.ChatRadiusPlugin
+author: tvhee
+version: ${project.version}
+api-version: 1.13
+commands:
+   cr:
+      description: Plugin command
+      usage: /<command>
+   cr help:
+      description: Help menu
+      usage: /<command>
+   cr menu:
+      description: Open the menu
+      usage: /<command>
+   cr update:
+      description: Check for updates
+      usage: /<command>
+   cr reload:
+      description: Reload command
+      usage: /<command>
+permissions:
+   chatradius.reload:
+      default: op
+   chatradius.menu:
+      default: op
+   chatradius.updates:
+      default: op
+   chatradius.spy:
+      default: op
+   chatradius.broadcast:
+      default: op
+   chatradius.set:
+      default: op

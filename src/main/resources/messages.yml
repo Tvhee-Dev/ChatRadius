@@ -1,0 +1,45 @@
+messages:
+  pluginmenu:
+    line1: '&3---------- &eChatRadius &3----------'
+    line2: '&2Version &aV%version%'
+    line3: '&aDo /cr help for a list of commands!'
+    line4: '&2Plugin made by'
+    line5: '&3------------------------------'
+  helpmenu:
+      line1: '&3---------- &eChatRadius &3----------'
+      line2: '&2/cr &aMain command'
+      line3: '&2/cr help &aHelp menu'
+      line4: '&2/cr menu &aOpen the menu'
+      line5: '&2/cr update &aCheck for updates'
+      line6: '&2/cr reload &aReload plugin'
+      line7: '&3------------------------------'
+  command:
+    not-found: '&4Error: &cCommand not found, do &e/cr help &cfor a list of commands!'
+    no-player: '&4Error: &cYou aren''t a player!'
+    no-player-found: '&4Error: &cCan''t find player &e%player%&c!'
+    no-permission: '&4Error: &cYou don''t have permission to use this command!'
+    no-number-used: '&4Error: &e%args% &cis not a number!'
+    reload: '&aPlugin reloaded!'
+  menu:
+    type-in:
+      new-radius: '&aType your new chatradius in the chat! &cType "&4Exit&c" to cancel!'
+      new-player-broadcast: '&aEnter the player name whose broadcastmode you want to change, &cType "&4Exit&c" to cancel!'
+      new-player-spy: '&aEnter the player name whose spymode you want to change, &cType "&4Exit&c" to cancel!'
+    spymode:
+      ##You can use the placeholder %target% for the player who is now in spymode
+      enabled: '&aPlayer &e%target% &ais now in spymode!'
+      enabled-player: '&aYou are now in spy mode!'
+      disabled-player: '&cYou are not longer in spy mode!'
+      disabled: '&cPlayer &e%target% &cis not longer in spymode!'
+    broadcastmode:
+      ##You can use the placeholder %target% for the player who is now in broadcastmode
+      enabled: '&aPlayer &e%target% &ais now in broadcast mode!'
+      enabled-player: '&aYou are now in broadcast mode!'
+      disabled-player: '&cYou are not longer in broadcast mode!'
+      disabled: '&cPlayer &e%target% &cis not longer in broadcast mode!'
+    setradius: '&bThe chatradius is set to &6%setradius% &bblocks!'
+  update:
+    deactivated: '&6Warning: &eUpdate checking is disabled!'
+    not-available: '&aThere is no update available, you are on the latest version!'
+    available: '&cThere is an update available! You are on version &e%version%&a, the newest version is &e%new-version%&a!'
+    available_2: '&eDownload here: https://www.spigotmc.org/resources/chatradius.81718/'
